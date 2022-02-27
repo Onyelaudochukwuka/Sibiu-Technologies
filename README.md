@@ -1,2 +1,2 @@
-# sertiotech
-A cloud computing companies web site 
+# sibiutech
+A cloud service companies web site 
