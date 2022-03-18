@@ -1135,20 +1135,3 @@ header .image-text .header-text {
 .aws-path-3 {
     fill: #FF9900;
 }
-.blue{
-    height: 500px;
-    width: 50%;
-    background-color: blue;
-}
-.blue::after{
-    content: '';
-    position: absolute;
-    width: 10%;
-    height: 500px;
-    background: inherit;
-    z-index: -1;
-    left: 50%;
-    transform-origin: top bottom;
-    transform: skewX(-5deg);
-    border-radius: 50px;
-}
