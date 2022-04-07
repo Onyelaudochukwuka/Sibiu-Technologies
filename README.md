@@ -141,78 +141,67 @@ Cloud computing spending is growing even faster than expected
   <h2>What are the cloud-computing migration costs?</h2>
 <p>For startups that plan to run all their systems in the cloud, getting started is pretty simple. But the majority of companies, it is not so simple: with existing applications and data, they need to work out which systems are best left running as they are, and which to start moving to cloud infrastructure. This is a potentially risky and expensive move, and migrating to the cloud could cost companies more if they underestimate the scale of such projects.</p>
 
-A survey of 500 businesses that were early cloud adopters found that the need to rewrite applications to optimise them for the cloud was one of the biggest costs, especially if the apps were complex or customised. A third of those surveyed cited high fees for passing data between systems as a challenge in moving their mission-critical applications. The skills required for migration are both difficult and expensive to find – and even when organisations could find the right people, they risked them being stolen away by cloud-computing vendors with deep pockets. 
+<p>A survey of 500 businesses that were early cloud adopters found that the need to rewrite applications to optimise them for the cloud was one of the biggest costs, especially if the apps were complex or customised. A third of those surveyed cited high fees for passing data between systems as a challenge in moving their mission-critical applications. The skills required for migration are both difficult and expensive to find – and even when organisations could find the right people, they risked them being stolen away by cloud-computing vendors with deep pockets.</p>
 
-Beyond this, the majority also remained worried about the performance of critical apps, and one in three cited this as a reason for not moving some critical applications.
+<p>Beyond this, the majority also remained worried about the performance of critical apps, and one in three cited this as a reason for not moving some critical applications.</p>
 
-Cloud computing migration: More expensive and complicated than you thought
-Technology migrations are more painful, and cloud isn't making them any easier
-Where does the NAS fit in an increasingly cloud-centric world?
-Is geography irrelevant when it comes to cloud computing?
-Actually, it turns out that is where the cloud really does matter. Geopolitics is forcing significant changes on cloud-computing users and vendors. Firstly, there is the issue of latency: if the application is coming from a data centre on the other side of the planet, or on the other side of a congested network, then you might find it sluggish compared to a local connection. That's the latency problem.
-
-Secondly, there is the issue of data sovereignty. Many companies, particularly in Europe, have to worry about where their data is being processed and stored. European companies are worried that, for example, if their customer data is being stored in data centres in the US or (owned by US companies), it could be accessed by US law enforcement. As a result, the big cloud vendors have been building out a regional data centre network so that organizations can keep their data in their own region.
-
-Some have gone further, effectively detatching some of those datacenters from their main business to make it much harder for US authorities – and others – to demand access to the customer data stored there. The customer data in the data centres is under the control of an independent company, which acts as a "data trustee", and US parents cannot access data at the sites without the permission of customers or the data trustee. Expect to see cloud vendors opening more data centres around the world to cater to customers with requirements to keep data in specific locations.
-
-Cloud security is another issue; the UK government's cyber security agency has warned that government agencies need to consider the country of origin when it comes to adding cloud services into their supply chains. While it was warning about antivirus software in particular, the issue is the same for other types of services too.
-
-What is a cloud-computing region? And what is a cloud-computing availability zone?
-Cloud-computing services are operated from giant datacenters around the world. AWS divides this up by 'regions' and 'availability zones'. Each AWS region is a separate geographic area, like EU (London) or US West (Oregon), which AWS then further subdivides into what it calls availability zones (AZs). An AZ is composed of one or more datacenters that are far enough apart that in theory a single disaster won't take both offline, but close enough together for business continuity applications that require rapid failover. Each AZ has multiple internet connections and power connections to multiple grids: AWS has over 80 AZs.
-
-Google uses a similar model, dividing its cloud-computing resources into regions that are then subdivided into zones, which include one or more datacenters from which customers can run their services. It currently over eight zones: Google recommends customers deploy applications across multiple zones and regions to help protect against unexpected failures.
-
-Microsoft Azure divides its resources slightly differently. It offers regions that it describes as is a "set of datacentres deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network". It also offers 'geographies' typically containing two or more regions, that can be used by customers with specific data-residency and compliance needs "to keep their data and apps close". It also offers availability zones made up of one or more data centres equipped with independent power, cooling and networking.
-
-Cloud computing and power usage
-Those data centres are also sucking up a huge amount of power: for example, Microsoft struck a deal with GE to buy all of the output from its new 37-megawatt wind farm in Ireland for the next 15 years in order to power its cloud data centres. Ireland said it now expects data centres to account for 15% of total energy demand by 2026, up from less than 2% back in 2015.
-
-Cloud computing: IBM overhauls access rules at Euro data centre
-AWS just sold some of its cloud computing infrastructure in China
+  <p>Cloud computing migration: More expensive and complicated than you thought</p>
+  <p>Technology migrations are more painful, and cloud isn't making them any easier</p>
+  <h2>Where does the NAS fit in an increasingly cloud-centric world?</h2>
   <hr/>
-Which are the big cloud-computing companies?
-When it comes to IaaS and PaaS, there are really only a few giant cloud providers. Leading the way is Amazon Web Services, and then the following pack of Microsoft's Azure, Google, and IBM. According to data from Synergy Research, Amazon, Microsoft and Google continue to attract well over half of worldwide cloud spending, with Q3 market shares of 33%, 20% and 10% respectively. And with growth rates that are higher than the overall market, their share of worldwide revenues continues to grow. However, that still leaves plenty of revenue for the chasing pack of companies – about $17 billion. "Clearly there are challenges with the big three companies lurking in the background, so the name of the game is not competing with them head on," said the analyst.
+<h2>Is geography irrelevant when it comes to cloud computing?</h2>
+<p>Actually, it turns out that is where the cloud really does matter. Geopolitics is forcing significant changes on cloud-computing users and vendors. Firstly, there is the issue of latency: if the application is coming from a data centre on the other side of the planet, or on the other side of a congested network, then you might find it sluggish compared to a local connection. That's the latency problem.</p>
 
-synergy.jpg
-Image: Synergy Research
+<p>Secondly, there is the issue of data sovereignty. Many companies, particularly in Europe, have to worry about where their data is being processed and stored. European companies are worried that, for example, if their customer data is being stored in data centres in the US or (owned by US companies), it could be accessed by US law enforcement. As a result, the big cloud vendors have been building out a regional data centre network so that organizations can keep their data in their own region.</p>
+
+<p>Some have gone further, effectively detatching some of those datacenters from their main business to make it much harder for US authorities – and others – to demand access to the customer data stored there. The customer data in the data centres is under the control of an independent company, which acts as a "data trustee", and US parents cannot access data at the sites without the permission of customers or the data trustee. Expect to see cloud vendors opening more data centres around the world to cater to customers with requirements to keep data in specific locations.</p>
+
+<p>Cloud security is another issue; the UK government's cyber security agency has warned that government agencies need to consider the country of origin when it comes to adding cloud services into their supply chains. While it was warning about antivirus software in particular, the issue is the same for other types of services too.</p>
+
+<p>What is a cloud-computing region? And what is a cloud-computing availability zone?</p>
+<p>Cloud-computing services are operated from giant datacenters around the world. AWS divides this up by 'regions' and 'availability zones'. Each AWS region is a separate geographic area, like EU (London) or US West (Oregon), which AWS then further subdivides into what it calls availability zones (AZs). An AZ is composed of one or more datacenters that are far enough apart that in theory a single disaster won't take both offline, but close enough together for business continuity applications that require rapid failover. Each AZ has multiple internet connections and power connections to multiple grids: AWS has over 80 AZs.</p>
+
+<p>Google uses a similar model, dividing its cloud-computing resources into regions that are then subdivided into zones, which include one or more datacenters from which customers can run their services. It currently over eight zones: Google recommends customers deploy applications across multiple zones and regions to help protect against unexpected failures.</p>
+
+<p>Microsoft Azure divides its resources slightly differently. It offers regions that it describes as is a "set of datacentres deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network". It also offers 'geographies' typically containing two or more regions, that can be used by customers with specific data-residency and compliance needs "to keep their data and apps close". It also offers availability zones made up of one or more data centres equipped with independent power, cooling and networking.</p>
+
+<p>Cloud computing and power usage</p>
+<p>Those data centres are also sucking up a huge amount of power: for example, Microsoft struck a deal with GE to buy all of the output from its new 37-megawatt wind farm in Ireland for the next 15 years in order to power its cloud data centres. Ireland said it now expects data centres to account for 15% of total energy demand by 2026, up from less than 2% back in 2015.</p>
+
+<p>Cloud computing: IBM overhauls access rules at Euro data centre
+AWS just sold some of its cloud computing infrastructure in China</p>
   <hr/>
-AWS, Azure and Google Cloud – what's the difference?
-The big three cloud companies all have their own strengths. AWS is the most established player and was behind Amazon's ability to support huge seasonal swings in demand from consumers. Being first out to market with cloud services and pushing hard to gain market share has made it the market leader, and it continues to innovate. Microsoft's Azure has become an absolutely core part of Microsoft's strategy, and the company has the enterprise history and products to support businesses as they switch to the cloud. Google Cloud is the smallest of the big three players, but clearly has the might of the advertising-to-Android giant behind it.
+<h2>Which are the big cloud-computing companies?</h2>
+<p>When it comes to IaaS and PaaS, there are really only a few giant cloud providers. Leading the way is Amazon Web Services, and then the following pack of Microsoft's Azure, Google, and IBM. According to data from Synergy Research, Amazon, Microsoft and Google continue to attract well over half of worldwide cloud spending, with Q3 market shares of 33%, 20% and 10% respectively. And with growth rates that are higher than the overall market, their share of worldwide revenues continues to grow. However, that still leaves plenty of revenue for the chasing pack of companies – about $17 billion. "Clearly there are challenges with the big three companies lurking in the background, so the name of the game is not competing with them head on," said the analyst.</p>
+<img src="https://www.zdnet.com/a/img/resize/2854a38c01633fd301545864344e4aa3c120eb28/2022/02/25/cfcc7b9a-28dd-4236-93a1-293e20c99227/synergy.jpg?width=1200&fit=bounds&auto=webp">
+  <hr/>
+<h2>AWS, Azure and Google Cloud – what's the difference?</h2>
+<p>The big three cloud companies all have their own strengths. AWS is the most established player and was behind Amazon's ability to support huge seasonal swings in demand from consumers. Being first out to market with cloud services and pushing hard to gain market share has made it the market leader, and it continues to innovate. Microsoft's Azure has become an absolutely core part of Microsoft's strategy, and the company has the enterprise history and products to support businesses as they switch to the cloud. Google Cloud is the smallest of the big three players, but clearly has the might of the advertising-to-Android giant behind it.</p>
 <hr/>
 Who are the other main cloud-computing players?
 Beyond the big three there are others, such as Alibaba Cloud, IBM, Dell and Hewlett Packard Enterprise, that all want to be part of the enterprise cloud project. And of course, from giants like Salesforce down to tiny startups, pretty much every software company is a SaaS company now.  
 <hr/>
-Can cloud computing go wrong?
-There are and will continue to be cloud outages. Those outages might happen at a local level because your internet is disrupted either by physical means (a digger cuts your broadband) or because of cyberattacks. But the big vendors have outages too and because, we are all increasingly reliant on their services, when the cloud stops, work stops. Few companies have backup systems to turn to in this situation. So long as cloud vendors keep outages to a minimum, then users will probably consider that using the cloud is more reliable than home-grown apps. But if outages become widespread, that opinion might change.
+<h2>Can cloud computing go wrong?</h2>
+<p>There are and will continue to be cloud outages. Those outages might happen at a local level because your internet is disrupted either by physical means (a digger cuts your broadband) or because of cyberattacks. But the big vendors have outages too and because, we are all increasingly reliant on their services, when the cloud stops, work stops. Few companies have backup systems to turn to in this situation. So long as cloud vendors keep outages to a minimum, then users will probably consider that using the cloud is more reliable than home-grown apps. But if outages become widespread, that opinion might change.</p>
 <hr/>
-What is the future of cloud computing?
-Cloud computing is reaching the point where it is likely to account for more of enterprise tech spending than the traditional forms of delivering applications and services in-house that have been around for decades. However, use of the cloud is only likely to climb as organisations get more comfortable with the idea of their data being somewhere other than a server in the basement. And now cloud-computing vendors are increasingly pushing cloud computing as an agent of digital transformation instead of focusing simply on cost. Moving to the cloud can help companies rethink business processes and accelerate business change, goes the argument, by helping to break down data any organisational silos. Some companies that need to boost momentum around their digital transformation programmes might find this argument appealing; others may find enthusiasm for the cloud waning as the costs of making the switch add up.
+  <h2>What is the future of cloud computing?</h2>
+<p>Cloud computing is reaching the point where it is likely to account for more of enterprise tech spending than the traditional forms of delivering applications and services in-house that have been around for decades. However, use of the cloud is only likely to climb as organisations get more comfortable with the idea of their data being somewhere other than a server in the basement. And now cloud-computing vendors are increasingly pushing cloud computing as an agent of digital transformation instead of focusing simply on cost. Moving to the cloud can help companies rethink business processes and accelerate business change, goes the argument, by helping to break down data any organisational silos. Some companies that need to boost momentum around their digital transformation programmes might find this argument appealing; others may find enthusiasm for the cloud waning as the costs of making the switch add up.</p>
 
-Why you're still scared of the Cloud (it's not about security or reliability)
-Cloud computing switch as digital transformation takes priority
-Moving to the cloud? Some advice to consider
-Cloud-computing case studies
-There are plenty of examples of organisations deciding to go down the cloud-computing route: here are a few examples of recent announcements.
+  <p>Why you're still scared of the Cloud (it's not about security or reliability)</p>
+  <p>Cloud computing switch as digital transformation takes priority</p>
+  <hr/>
+  <h2>Moving to the cloud?</h2><p> Some advice to consider</p>
+  <p>Cloud-computing case studies</p>
+<p>There are plenty of examples of organisations deciding to go down the cloud-computing route: here are a few examples of recent announcements.</p>
 <hr/>
-What's the best way to make the most of the cloud?
-US Air Force plots IT overhaul, aims for cloud
-DuluxGroup paints a future of procurement in the cloud
-Marketo to migrate to Google Cloud as part of multi-year deal
-AWS infrastructure is now behind three main streaming media providers
-American Airlines to move consumer-facing apps to IBM Cloud, says Cloud Foundry key
-Previous coverage
-The Art of the Hybrid Cloud
+  <h2>What's the best way to make the most of the cloud?</h2>
+  <p>US Air Force plots IT overhaul, aims for cloud</p>
+  <p>DuluxGroup paints a future of procurement in the cloud</p>
+  <p>Marketo to migrate to Google Cloud as part of multi-year deal</p>
+  <p>AWS infrastructure is now behind three main streaming media providers</p>
+  <p>American Airlines to move consumer-facing apps to IBM Cloud, says Cloud Foundry key</p>
+  <p>Previous coverage</p>
+  <p>The Art of the Hybrid Cloud</p>
 
 Cloud computing is gobbling up more of the services that power businesses. But, some have privacy, security, and regulatory demands that preclude the public cloud. Here's how to find the right mix.
 <hr/>
-Public cloud, private cloud, or hybrid cloud: What's the difference?
-
-Trying to understand and articulate the differences between public, private, and hybrid cloud? Here's a quick breakdown.
-
-Read more on cloud computing
-Three smart cloud services that can help keep your business more secure
-Public cloud, private cloud, or hybrid cloud: What's the difference?
-What does 'hybrid cloud' mean? It depends on whom you ask
-Infographic: Companies are turning to hybrid cloud to save money
-Businesses will spend $128 billion on public cloud this year, says IDC
-Cloud computing security: This is where you'll be spending the money
