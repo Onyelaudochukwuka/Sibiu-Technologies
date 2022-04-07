@@ -1,4 +1,7 @@
 //jshint esversion:6
+$(window).on('load', (event) => {
+        $('.bdy').fadeOut('slow');
+  });
 let hamburger = document.querySelector('#hamburger'),
      navlinks = document.querySelector('#navlinks'),
      line = hamburger.querySelector('#line'),

@@ -1,0 +1,63 @@
+.bdy {
+  background-color:rgb(36 42 69);
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.spinner .ball {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation: motion 3s ease-in-out infinite;
+}
+
+.p {
+  color: #fff;
+  margin-top: 5px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+
+@keyframes motion {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {
+    transform: translateX(50px) scale(0.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
